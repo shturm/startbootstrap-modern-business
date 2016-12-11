@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .img-portfolio {
@@ -26,7 +26,7 @@ body {
 /* Home Page Carousel */
 
 header.carousel {
-    height: 50%;
+    height: 30%;
 }
 
 header.carousel .item,
@@ -90,4 +90,27 @@ footer {
     header.carousel .carousel {
         height: 70%;
     }
+}
+
+.about-us-feature {
+    font-size: 20px;
+}
+
+.carousel-caption h1 {
+    font-size: 56px;
+    line-height: 0.7;
+}
+
+.carousel-caption h1 small {
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.carousel-caption {
+    padding-bottom: none;
+    bottom: 0px;
+}
+
+.navbar {
+    margin-bottom: 0px;
 }
